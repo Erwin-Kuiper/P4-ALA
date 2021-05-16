@@ -2,9 +2,36 @@
 /* CSS Document */
 
 header {
+    height: 15vh;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+main {
+    height: 70vh;
+    background-image: url(../images/Math.jpg);
+    display: flex;
+}
+
+footer {
+    height: 15vh;
     background-color: darkblue;
 }
 
 ul {
     float: left;
+    margin-left: 3.5vw;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#tekstwolk {
+    width: 50vw;
+    height: 25vh;
 }
