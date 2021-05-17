@@ -31,7 +31,24 @@ ul a {
     font-size: 1.5rem;
 }
 
-#tekstwolk {
-    width: 50vw;
+#wolk1 {
     height: 25vh;
+    width: 50vw;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    top: 0.5vh;
+    left: 0.5vw;
+
+
 }
+
+#wolk2 {
+    width: 0;
+    height: 0;
+    border-top: 100px solid white;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 41.4vh;
+    left: 26.4vw;
+  }
