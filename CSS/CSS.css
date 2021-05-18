@@ -31,24 +31,48 @@ ul a {
     font-size: 1.5rem;
 }
 
-#wolk1 {
-    height: 25vh;
+#tekstwolk {
     width: 50vw;
-    background-color: white;
-    border-radius: 25px;
-    position: relative;
-    top: 0.5vh;
-    left: 0.5vw;
+    height: 25vh;
+}
+
+
+@media screen and (min-width: 360px){
+
+  header {
+      height: 15vh;
+      background-color: darkblue;
+      display: flex;
+      align-items: center;
+      align-content: center;
+  }
+
+  main {
+      height: 70vh;
+      background-image: url(../images/Math.jpg);
+      display: flex;
+  }
+
+  footer {
+      height: 15vh;
+      background-color: darkblue;
+  }
+
+  ul {
+      float: left;
+      margin-left: 3.5vw;
+  }
+
+  ul a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
+  }
+
+  #tekstwolk {
+      width: 50vw;
+      height: 25vh;
+  }
 
 
 }
-
-#wolk2 {
-    width: 0;
-    height: 0;
-    border-top: 100px solid white;
-    border-right: 100px solid transparent;
-    position: absolute;
-    top: 41.4vh;
-    left: 26.4vw;
-  }
