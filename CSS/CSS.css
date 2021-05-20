@@ -1,54 +1,126 @@
 @charset "utf-8";
 /* CSS Document */
 
-header {
-    height: 15vh;
+/* mobiel */
+@media (min-width: 100px) and (max-width:768.9px){
+ #navD {
+     display: none;
+ }
+
+ #logo {
+     height: 10vh;
+ }
+
+ header {
+    height: 10vh;
     background-color: darkblue;
     display: flex;
     align-items: center;
     align-content: center;
 }
 
-main {
-    height: 70vh;
+ main {
+    height: 80vh;
     background-image: url(../images/Math.jpg);
     display: flex;
-}
-
-footer {
-    height: 15vh;
-    background-color: darkblue;
-}
-
-ul {
-    float: left;
-    margin-left: 3.5vw;
-}
-
-ul a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
+} 
 
 #wolk1 {
-    height: 25vh;
-    width: 50vw;
+    height: 30vh;
+    width: 80vw;
     background-color: white;
     border-radius: 25px;
-    position: relative;
-    top: 0.5vh;
-    left: 0.5vw;
-
-
 }
 
 #wolk2 {
-    width: 0;
-    height: 0;
-    border-top: 100px solid white;
-    border-right: 100px solid transparent;
-    position: absolute;
-    top: 41.4vh;
-    left: 26.4vw;
+    width: 0vw;
+    height: 0vh;
+    border-top: 65px solid white;
+    border-right: 65px solid transparent;
+    position: relative;
+    top: 25vh;
+    left: -50vw;
   }
+
+#mascotteHome {
+    display: flex;
+    align-self: flex-end;
+}
+
+footer {
+    height: 10vh;
+    background-color: darkblue;
+}
+
+}
+ 
+
+
+
+
+
+/* desktop */
+@media (min-width: 769px) {
+    header {
+        height: 15vh;
+        background-color: darkblue;
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+
+    #logo {
+        height: 15vh;
+    }
+    
+    main {
+        height: 70vh;
+        background-image: url(../images/Math.jpg);
+        display: flex;
+    }
+
+    #mascotteHome {
+        height: 48vh;
+        display: flex;
+        align-self: flex-end;
+    }
+    
+    footer {
+        height: 15vh;
+        background-color: darkblue;
+    }
+    
+    ul {
+        float: left;
+        margin-left: 3.5vw;
+    }
+    
+    ul a {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+    
+    #wolk1 {
+        height: 25vh;
+        width: 50vw;
+        background-color: white;
+        border-radius: 25px;
+        position: relative;
+        top: 0.5vh;
+        left: -6vw;
+    
+    
+    }
+    
+    #wolk2 {
+        width: 0vw;
+        height: 0vh;
+        border-top: 65px solid white;
+        border-right: 65px solid transparent;
+        position: relative;
+        top: 25vh;
+        left: -50vw;
+      }
+}
+
