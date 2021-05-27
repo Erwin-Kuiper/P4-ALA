@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 /* mobiel */
 @media (min-width: 100px) and (max-width:768.9px){
  #navD {
