@@ -25,6 +25,22 @@ a
   transition: color 0.3s ease;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 a:hover
 {
   color: tomato;
@@ -170,6 +186,16 @@ a:hover
   }
 
 
+
+
+
+
+
+
+
+
+
+
  #logo {
      height: 10vh;
  }
@@ -230,6 +256,15 @@ footer {
 
 }
  
+
+
+
+
+
+
+
+
+
 
 
 
@@ -303,5 +338,55 @@ footer {
         top: 25vh;
         left: -50vw;
       }
+
+      /* Eenvoudige rekenpagina*/
+      #som{
+        padding-top: 2vh;
+        background-color: blue;
+        margin-left: 15vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+
+      #output{
+        margin-top: 1vh;
+        height: 60vh;
+        background-color: white;
+        color: black;
+      }
+
+      #article-uitleg{
+        padding-top: 2vh;
+        background-color: rgb(51, 51, 255);
+        margin-right: 15vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+
+      #uitleg1{
+        margin-top: 1vh;
+        padding-top: 2vh;
+        height: 30vh;
+        background-color: white;
+        border-radius: 25px;
+        color: black;
+      }
+
+      #uitleg2{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid white;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #uitleggever{
+        width: 7vw;
+        margin-left: 11vw;
+        margin-right: auto;
+      }
+
 }
 
