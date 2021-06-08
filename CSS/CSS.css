@@ -339,6 +339,10 @@ footer {
         left: -50vw;
       }
 
+    #tekstInWolkHome {
+      padding: 6px;
+    }
+
       /* Eenvoudige rekenpagina*/
       #som{
         padding-top: 2vh;
