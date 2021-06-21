@@ -28,7 +28,7 @@ window.onload=function(){
 
         case "Priem":
             button.onclick=function(){
-
+                
             }
         break;
     }
