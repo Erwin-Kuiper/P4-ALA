@@ -1,16 +1,35 @@
-var n1 = 0,  n2 = 1, next_num, i;  
-var num = 'getal';
+var n1 = 0,  n2 = 1, next_num;  
+var num;
 var button;
+var output;
 
 window.onload=function(){
     button = document.getElementById('submit');
-    button.onclick=function berekenTafel(){
-for ( i = 1; i <= num; i++)  
-{  document.write (" <br> " +  n1); // print the n1  
-    next_num = n1 + n2; // sum of n1 and n2 into the next_num  
-      
-    n1 = n2; // assign the n2 value into n2  
-    n2 = next_num; // assign the next_num into n2  
-}
-}
+    output = document.getElementById('output');
+    var som = document.getElementById("somsoort");
+    var somsoort = som.options[som.selectedIndex].value;
+    switch (somsoort) {
+        case "Fibonacci":
+            button.onclick=function(){
+                num = document.getElementById('getal');
+                n1 = 0;
+                next_num = 0;
+                n2 = 1;
+                output.innerHTML = '';
+            for ( var i = 1; i <= num.value; i++) {
+                output.innerHTML += (" <br> " +  n1); 
+                next_num = n1 + n2; 
+
+                n1 = n2;  
+                n2 = next_num;
+                }
+            } 
+        break;
+
+        case "Priem":
+            button.onclick=function(){
+
+            }
+        break;
+    }
 }
