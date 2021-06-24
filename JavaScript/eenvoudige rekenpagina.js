@@ -34,6 +34,25 @@ button = document.getElementById('submit');
                         }
                     break;
 
+                case "breuken":
+                        inputgetal = document.getElementById('inputgetal').value;
+                        teller = 1;
+                        while(teller <= inputgetal){
+                            document.getElementById('output').innerHTML +=  '1' + '/' + teller + '=' + 1/teller + '<br>';
+                            teller++;
+                        }
+                    break;
+
+                case "kwadraten":
+                        inputgetal = document.getElementById('inputgetal').value;
+                        teller = 1;
+                        while(teller <= inputgetal){
+                            document.getElementById('output').innerHTML +=  teller + '<sup>' + '2' + '</sup>=' + Math.pow(teller, 2) + '<br>';
+                            teller++;
+                        }
+                    break;
+
+
 
                 }
     }
