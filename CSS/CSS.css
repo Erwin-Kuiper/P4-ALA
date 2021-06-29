@@ -153,7 +153,7 @@ a:hover
   padding-top: 125px;
   right: -100px;
 
-  background: #ededed;
+  background: blue;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -254,6 +254,28 @@ a:hover
 footer {
     height: 10vh;
     background-color: darkblue;
+}
+
+#som {
+  background-color: blue;
+}
+
+#output{
+  margin-top: 1vh;
+  height: 30vh;
+  background-color: white;
+  color: black;
+}
+
+#article-uitleg {
+  background-color: rgb(51, 51, 255);
+}
+
+#uitleggever {
+  width: 30vw;
+  position: absolute;
+  top: 60vh;
+  left: 5vw;
 }
 
 }
