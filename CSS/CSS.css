@@ -194,6 +194,11 @@ a:hover
 
 
 
+#uitleg1{
+  background-color: cornsilk;
+  margin-left: 2vw;
+}
+
 
 
 
@@ -417,6 +422,15 @@ footer {
         margin-right: auto;
       }
 
+      /* dobbelstenen */
+
+      #dice {
+        background-image: 'six.jpg';
+      }
+
+      #nummers{
+        background-color: white;
+      }
 }
 
 #tekstwolk {
